@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+@import "tailwindcss";
+
+a.active hr{
+    display: block;
+}
+
+
+
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  @media (max-width:635px){
+    a.active{
+        background-color: black;
+        color: white;
+    }
+  }
+
+
+  /* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* For Internet Explorer & Edge */
+body {
+  -ms-overflow-style: none;
+}
+
