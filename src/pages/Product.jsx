@@ -49,8 +49,8 @@ const Product = () => {
               />
             ))}
           </div>
-          <div className="w-full sm:w-[80%]">
-            <img src={imageSet} alt="" className="w-full " />
+          <div className="w-full sm:w-[80%] ">
+            <img src={imageSet} alt="" className="w-full" />
           </div>
         </div>
         {/* -----------------product information----------------- */}
